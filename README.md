@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- [Deno] is installed
+- [Deno](https://docs.deno.com/runtime/fundamentals/installation/) is installed
 
 ## Run Tests
 
