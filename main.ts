@@ -32,7 +32,7 @@ type Sort = (args: SortArgs) => SortReturn;
 export const sort: Sort = (args) => {
   for (const arg of valuesFromObject(args)) {
     if (!isPositiveInteger(arg)) {
-      throw new Error("All values must be positive integers");
+      throw new Error("All arguments must be positive integers");
     }
   }
 
